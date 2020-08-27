@@ -473,6 +473,7 @@ h2 {
 	top: 10px;
 	width: calc(100% - 20px);
 	height: calc(100% - 20px);
+	z-index: 2;
 }
 
 .order-img {
@@ -482,6 +483,7 @@ h2 {
 	border-radius: 10px;
 	background-color: #ebebeb;
 	margin-bottom: 10px;
+	z-index: 1;
 }
 
 .order-row {
@@ -838,6 +840,7 @@ h2 {
 	box-shadow: 0px 20px 30px rgba(194, 124, 201, 0.2);
 	border-radius: 16px;
 	height: 300px;
+	z-index: 1;
 }
 
 .gallery-block__img img {
@@ -848,6 +851,7 @@ h2 {
 	top: 10px;
 	width: calc(100% - 20px);
 	height: calc(100% - 20px);
+	z-index: 2;
 }
 
 .gallery .col-lg-3 {
@@ -1420,6 +1424,7 @@ h2 {
 	width: 100%;
 	height: 343px;
 	padding: 10px;
+	z-index: 1;
 }
 
 .video-item img {
@@ -1431,6 +1436,7 @@ h2 {
 	height: calc(100% - 20px);
 	top: 10px;
 	left: 10px;
+	z-index: 2;
 }
 
 .more .col-lg-4 {
@@ -2241,10 +2247,10 @@ h2 {
 		width: 100%;
 	}
 	.share-block .share-block__col:nth-child(2) .share-block__col-text:nth-child(2) {
-		width: 50%;
+		width: 30%;
 	}
 	.share-block .share-block__col:nth-child(2) .share-block__col-text:nth-child(3) {
-		width: 50%;
+		width: 30%;
 	}
 	.more-stars__row {
 		flex-wrap: wrap;
