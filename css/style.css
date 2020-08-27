@@ -889,6 +889,19 @@ h2 {
 	border-radius: 16px;
 	padding: 20px 42px 50px;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.compare-block img {
+	width: 170px;
+	height: 170px;
+	object-fit: contain;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .compare-block__title {
